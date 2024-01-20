@@ -1,4 +1,4 @@
-### Projeto contador
+### Projeto contador, exibindo a soma em um intervalo de numeros em ordem crescente ou decrescente
 ## <a href="https://contator-iota.vercel.app/">Clique Aqui para acessar o projeto
 <img src=print.png>
 
