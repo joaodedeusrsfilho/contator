@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Inicio: <input type="number" name="inputInicio" id="inputInicio" min="0">
+            </p>
+            <p>
+                Fim: <input type="number" name="inputFim" id="inputFim" min="0">
+
+            </p>
+            <p>
+                Passando: <input type="number" name="inputPasso" id="inputPasso" min="0">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="divResultado">
+            Resultado aqui...<br>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; joaodedeusdev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
